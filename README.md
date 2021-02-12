@@ -1,4 +1,4 @@
-# OpenWrt-Lede-actions
+# OpenWrt-Lede-Actions
 
 #### 以科学上网旁路由为目的，基于coolsnowwolf/lede编译，只包含SSRP+。
 
