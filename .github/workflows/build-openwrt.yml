@@ -11,6 +11,14 @@
 name: Build OpenWrt
 
 on:
+# 定时触发
+#  schedule:
+#    - cron: 0 20 * * *
+
+# 点赞触发
+  watch:
+    types: [started]
+
   repository_dispatch:
   workflow_dispatch:
     inputs:
